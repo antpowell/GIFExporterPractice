@@ -48,7 +48,7 @@ export class NeuQuant {
 	// defs for decreasing alpha factor
 	private readonly alphabiasshift = 10; // alpha starts at 1.0
 	private readonly initalpha = 1 << this.alphabiasshift;
-	private readonly alphadec; // biased by 10 bits
+	private readonly alphadec: any; // biased by 10 bits
 
 	/* radbias and alpharadbias used for radpower calculation */
 	private readonly radbiasshift = 8;

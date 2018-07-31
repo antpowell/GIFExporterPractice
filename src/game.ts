@@ -1,4 +1,4 @@
-import { GIFExporter } from './gif.exporter';
+import { GIFExporter } from './ts/gif.exporter';
 export class Game {
 	private _canvas: HTMLCanvasElement;
 	private _engine: BABYLON.Engine;

@@ -27,7 +27,7 @@
     "typescript": "^2.9.2"
   },
   "scripts": {
-    "start": "parcel index.html",
+    "start": "rollup -c",
     "build": "parcel build src/**.ts --public-url ./",
     "test": "mocha -wr ts-node/register test/**.spec.ts"
   },
